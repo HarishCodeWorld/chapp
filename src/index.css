@@ -1,0 +1,26 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"); */
+* {
+  box-sizing: border-box;
+}
+html {
+  overflow: auto;
+}
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+  background: rgb(223, 223, 223);
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(120, 120, 120);
+  border-radius: 10px;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
